@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive, sans-serif;
+
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom right, rgb(2, 29, 27), rgb(8, 73, 70));
+  color: whitesmoke;
+  font-size: 20px;
+}
+.header {
+  text-align: center;
+  padding: 25px;
+}
+
+.container {
+  width: 30%;
+  margin: auto;
+  padding: 35px 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgb(11, 107, 102);
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  position: relative;
+}
+
+.section input {
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  padding: 8px 10px 8px 5px;
+  background-color: rgba(14, 119, 114, 0.623);
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  font-family: "Kalam", cursive, sans-serif;
+}
+
+.section input::placeholder {
+  color: rgba(245, 245, 245, 0.45);
+  font-family: "Kalam", cursive, sans-serif;
+}
+
+.submit-section {
+  width: 100%;
+  margin-top: 15px;
+}
+.submit-section input {
+  padding: 8px;
+  width: 100%;
+  font-family: "Kalam", cursive, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(45, 189, 182, 0.801);
+  color: whitesmoke;
+
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-section input:hover {
+  background-color: rgba(29, 165, 158, 0.76);
+}
+
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer p a {
+  color: rgba(45, 189, 182, 0.801);
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  color: rgba(29, 165, 158, 0.76);
+  text-decoration: underline;
+}
+
+.error {
+  font-size: 16px;
+  margin-top: 5px;
+  color: rgb(214, 41, 41);
+}
+
+.symbol {
+  position: absolute;
+  right: 8px;
+  top: 43px;
+  font-size: 14px;
+}
